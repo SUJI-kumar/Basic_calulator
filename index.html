@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script type="text/javascript" src="script.js"></script>
+
+<body>
+	<h1>Calculator</h1>
+		<div class=Calculator>
+			<input type="text" name="" class="Calculator-screen" id="fect" value="0">
+			<div class="Calculator-keys">
+			<div class="row">
+				<button class="All-clear" onclick="cls()" value=" ">AC</button>
+				<button calss="Operator"  onclick="back()" value=""><-</button>
+				<button class="Operator"  onclick="dis('%')" value="%">%</button>
+				<button class="Operator"  onclick="dis('/')" value="/">&divide;</button>
+			</div>
+			<div class="row">
+				<button class="Number"   onclick="dis('9')" value="9">9</button>
+				<button class="Number"   onclick="dis('8')" value="8">8</button>
+				<button class="Number"   onclick="dis('7')" value="7">7</button>
+				<button class="Operator" onclick="dis('*')"  value="*">&times;</button>
+			</div>
+			<div class="row">
+				<button class="Number"   onclick="dis('6')" value="6">6</button>
+				<button class="Number"   onclick="dis('5')" value="5">5</button>
+				<button class="Number"   onclick="dis('4')" value="4">4</button>
+				<button class="Operator" onclick="dis('+')"  value="+">&plus;</button>
+			</div>
+			<div class="row">
+				<button class="Number"   onclick="dis('3')" value="3">3</button>
+				<button class="Number"   onclick="dis('2')" value="2">2</button>
+				<button class="Number"   onclick="dis('1')" value="1">1</button>
+				<button class="Operator" onclick="dis('-')"  value="-">&minus;</button>
+			</div>
+			<div class="row">
+				<button class="Number-zero" onclick="dis('0')" value="0">0</button>
+				<button class="dot" onclick="dis('.')">.</button>
+				<button class="equal-sign" onclick="solve()">=</button>
+			</div>
+			</div>
+		</div>
+
+</body>
+
+</html>
